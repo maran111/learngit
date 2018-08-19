@@ -26,7 +26,7 @@ app = create_app(os.getenv('FLASK_CONFIG') or 'default')
 @app.errorhandler(404)
 def page_not_found(error):
     #print error
-    return jsonify({'status':'404', 'msg': 'page not found!'})
+    return jsonify({'status':'504', 'msg': 'page not found!'})
 
 if __name__ == "__main__":
     # ConnectDB().monitor_to_db()

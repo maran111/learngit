@@ -12,7 +12,7 @@ import time
 # from apii.constant.Constant import Constant
 from app import create_app
 
-import flask, os,sys,time
+import flask,sys
 from flask import request, send_from_directory
 from flask import make_response
 

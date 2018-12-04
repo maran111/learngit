@@ -2,16 +2,15 @@
 # -*- coding: utf-8 -*-
 
 import os
-#import sys
 from operator import and_
 
 from flask import request, jsonify, g, current_app
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 
 import time
-# from apii.constant.Constant import Constant
-from app import create_app
 
+from app import create_app
+   
 import flask,sys
 from flask import request, send_from_directory
 from flask import make_response

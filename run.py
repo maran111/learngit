@@ -16,10 +16,6 @@ from flask import request, send_from_directory
 from flask import make_response
 
 
-
-# reload(sys)
-# sys.setdefaultencoding('utf-8')
-
 app = create_app(os.getenv('FLASK_CONFIG') or 'default')
 
 @app.errorhandler(404)
